@@ -1,0 +1,42 @@
+.body {
+}
+
+.year-block-container {
+	/**border: 1px solid black;**/
+	width: 985px;
+	height: 470px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.year-left-header {
+	float: left;
+	background-color: #7091d8;
+	width: 45px;
+	height: 100%;
+	text-align: center;
+	line-height: 30px;
+}
+
+.year-content {
+	float: left;
+	height: 223px;
+	width: 448px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+}
+
+.year-content:last-last-child {
+	margin-bottom: 0px;
+}
+
+.year-content:last-child {
+	margin-bottom: 0px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
