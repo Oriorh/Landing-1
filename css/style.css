@@ -7,11 +7,11 @@
 	height: 470px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 20px;
 }
 
 .year-left-header {
 	float: left;
-	background-color: #7091d8;
 	width: 45px;
 	height: 100%;
 	text-align: center;
@@ -33,6 +33,14 @@
 
 .year-content:last-child {
 	margin-bottom: 0px;
+}
+
+.header-2016 {
+	background-color: #ffb679;
+}
+
+.header-2017 {
+	background-color: #7091d8;
 }
 
 .clearfix::after {
